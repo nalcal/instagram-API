@@ -16,14 +16,10 @@ define('ImageDirectory', 'pics/');
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta name="description" content="width=device=width, initial-scale=1"> 
-		<title>Untitled</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="author" href="humans.txt">
+	<title> </title>
 </head>
 	<body>
-		<a href="https://api.instagram.com/oauth/authorize/?client_id=<?php echo client_ID; ?>&redirect_uri=<?php echo redirectURI; ?>&response_type=code">Login</a>
-		<script src="js/main.js"></script>
+		<a href="https://api.instagram.com/oauth/authorize/?client_id=<?php echo clientID; ?>&redirect_uri=<?php echo redirectURI; ?>&response_type=code">Login</a>
+		
 	</body>
 </html>
