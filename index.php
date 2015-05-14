@@ -32,7 +32,7 @@ function getUserID($username){
 	$instagramINFO = connectToInstagram($url);
 	$results = json_decode($instagramINFO, true);
 
-	echo $results['data']['0']['id'];
+	return $results['data']['0']['id'];
 }
 //function to print out images onto screen
 function printImages($userID){
